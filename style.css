@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+#myDiv {  
+    background-color:#021532 ;
+    border-bottom: 2px solid black;
+    width: 800px;
+    height: 400px;
+    margin-left: 23%;
+}
+#detalis {
+    height: 10%;
+    width: 25%;
+    margin-left: 75%;
+    margin-top: -5.4%;
+    font-size: 130%;
+}
+#timeDiv {
+    font-size: 130%;
+    height: 10%;
+    width: 25%;   
+}
+#divText {
+    height: 50%;
+    width: 100%; 
+    text-align: center;
+    font-size: 130%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#uzerText {
+    height: 40%;
+    width: 100%;
+    text-align: center;  
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.purple {
+    color: rgb(232, 31, 191);
+}
