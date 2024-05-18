@@ -1,9 +1,12 @@
 body {
     text-align: center;
+    background-image: url(background.jpg);
+    background-size: cover;
 }
 
 #myDiv {  
-    background-color:#021532 ;
+    background: linear-gradient(90deg, #1c0774, #be7abe);
+
     border-bottom: 2px solid black;
     width: 800px;
     height: 400px;
@@ -29,18 +32,18 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    word-break: break-all;
 }
 
 #uzerText {
     height: 40%;
     width: 100%;
     text-align: center;  
+    word-break: break-all;
 }
 
 .green {
-    color: green;
+    color: rgb(52, 208, 52);
 }
 
 .red {
@@ -52,5 +55,5 @@ body {
 }
 
 .purple {
-    color: rgb(232, 31, 191);
+    color: rgb(227, 95, 13);
 }
